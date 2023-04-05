@@ -19,6 +19,9 @@ public class TicTacToePlugin implements GamePlugin<TicTacToe.Player> {
         return TicTacToe.SIZE;
     }
 
+    /**
+     * Gets grid height.
+     */
     @Override
     public int getGridHeight() {
         return TicTacToe.SIZE;
